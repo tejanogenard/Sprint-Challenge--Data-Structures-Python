@@ -1,11 +1,3 @@
-# We need to define a node class to input into our Ring Buffer
-class Node:
-    def __init__(self, value):
-        self.value = value 
-        self.next = None 
-
-
-
 class RingBuffer:
     def __init__(self, capacity):
         self.index = 0 
